@@ -4,7 +4,7 @@
 
 ## Installation
 
-Install dependencies (using Arch-Linux)
+Install dependencies for cava bar (using Arch-Linux)
 
 ```bash
   sudo pacman -S cava
