@@ -1,3 +1,7 @@
-My first Waybar config/style Theme
-<img width="2560" height="36" alt="screenshot-2025-09-07_00-10-25" src="https://github.com/user-attachments/assets/24f9d1e2-5c80-4047-aab5-308b933d26e1" />
+<h1 align="left">dotfiles</h1>
 
+###
+
+<p align="left">Waybar Themes include config.jsonc & style.css</p>
+
+<img width="2560" height="1440" alt="screenshot-2025-09-07_10-26-59" src="https://github.com/user-attachments/assets/8aff806f-b7ca-4149-8fcf-a0a6c7be62e4" />
