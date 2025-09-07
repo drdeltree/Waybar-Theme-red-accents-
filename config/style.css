@@ -66,10 +66,6 @@ window#waybar.empty #window {
 
 }
 
-button {
-border: none;
-}
-
 /* --- Workspaces --- */
 #workspaces {
   background-color: @bg;
@@ -128,7 +124,7 @@ border: none;
 
 /* --- General Modules --- */
 
-tray,
+#tray,
 #cava,
 #mpris,
 #cpu,
@@ -147,8 +143,7 @@ tray,
 #cpu:hover,
 #bluetooth:hover,
 #network:hover,
-#pulseaudio:hover,
-#battery:hover {
+#pulseaudio:hover {
  background-color: @ia1;
 }
 
