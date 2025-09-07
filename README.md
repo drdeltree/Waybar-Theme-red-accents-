@@ -1,10 +1,19 @@
-<h1 align="left">dotfiles</h1>
+## Theme for Waybar
 
-###
+ with little $${\color{#ff9b71} red}$$ light accents
 
-<p align="left">Waybar Themes include config.jsonc & style.css</p>
+## Installation
 
-<h1 align="left">stack with omarchy arch-hyprland</h1>
-- waybar
+Install dependencies (using Arch-Linux)
 
-<img width="2560" height="1440" alt="screenshot-2025-09-07_18-38-28" src="https://github.com/user-attachments/assets/5fdea071-dd22-4ae4-9efa-b825e4a5cd25" />
+```bash
+  sudo pacman -S cava
+```
+```bash
+  sudo pacman -S waybar-cava
+```
+    
+## Screenshots
+
+<img width="2560" height="1440" alt="screenshot-2025-09-07_18-38-28" src="https://github.com/user-attachments/assets/16c8b398-d1b3-4519-bcbe-e15ad920c7ff" />
+
