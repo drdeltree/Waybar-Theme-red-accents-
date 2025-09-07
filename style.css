@@ -1,0 +1,191 @@
+@import "../omarchy/current/theme/waybar.css";
+
+@define-color bg @background;
+@define-color fg @foreground;
+@define-color rd1 #ff9b71;
+@define-color ia1 #101010;
+
+* {
+
+  border-radius: 1px;
+  font-family: 'JetBrainsMono Nerd Font Propo';
+  font-size: 12px;
+  font-weight: bold;
+  }
+
+/* --- Tooltip --- */
+tooltip label {
+  color: @fg;
+  text-shadow: none;
+  }
+
+
+tooltip {
+  background-color: @bg;
+  border-radius: 5px;
+  border: 1px solid @bg;
+  opacity: 0.9;
+ }
+
+/* --- Waybar ---*/
+window#waybar {
+  background-color: transparent;
+  border-bottom: 0px;
+  transition-property: background-color;
+  transition-duration: .5s;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+window#waybar.empty #window {
+  background-color: transparent;
+  padding: 0;
+}
+
+/* --- Modules --- */
+.modules-left {
+  margin: 2px 0 0 0;
+}
+
+.modules-center {
+  background: @bg;
+  margin: 4px 4px 4px 4px;
+  box-shadow: 1px 1px 3px 1px @ia1;
+  border-radius: 1px;
+ }
+
+.modules-right {
+ margin: 4px 4px 4px 4px; 
+  background: @bg;
+  box-shadow: 1px 1px 3px 1px @ia1;
+  border-radius: 1px;
+
+
+}
+
+/* --- Workspaces --- */
+#workspaces {
+  background-color: @bg;
+  box-shadow: 1px 1px 3px 1px @ia1;
+  margin: 2px 4px 4px 4px;
+  
+}
+
+#workspaces button {
+  color: @fg;
+  background-color: transparent;
+  margin: 1px;
+  padding: 0 6px;
+  border-radius: 0;
+}
+
+
+#workspaces button:first-child {
+  border-radius: 1px 0 0 1px;
+}
+
+#workspaces button:last-child {
+  border-radius: 0 1px 1px 0;
+}
+
+#workspaces button:first-child:last-child {
+  border-radius: 1px;
+}
+
+#workspaces button.urgent {
+  color: red;
+  background-color: yellow;
+}
+
+#workspaces button.active {
+  background-color: @rd1;
+  color: @bg;
+}
+
+#workspaces button.empty {
+  color: @ia1;
+}
+
+/* --- Custom Color+Shdow Omarchy --- */
+#custom-omarchy{
+  padding: 0 5px;
+  background-color: @bg;
+  box-shadow: 1px 1px 3px 1px @ia1;
+  margin: 2px 4px 4px 4px;
+  color: @rd1;
+}
+
+/* --- General Modules --- */
+
+#tray,
+#cava,
+#mpris,
+#cpu,
+#battery,
+#network,
+#temperature,
+#bluetooth,
+#pulseaudio,
+#custom-weather,
+#clock {
+  padding: 0 5px;
+}
+
+
+/* --- Right module Hover color --- */
+#cpu:hover,
+#temperature:hover,
+#bluetooth:hover,
+#network:hover,
+#pulseaudio:hover {
+ background-color: @ia1;
+}
+
+#custom-update{
+  padding: 0 5px;
+  min-width: 12px;
+  margin: 2px 4px 4px 4px;
+  background-color: @bg;
+  box-shadow: 1px 1px 3px 1px @ia1;
+  border-radius: 0;
+}
+
+#custom-update {
+  font-size: 10px;
+}
+
+#cava {
+  padding: 0 5px;
+  background-color: @background;
+  box-shadow: 1px 1px 3px 1px @ia1;
+  margin: 2px 4px 4px 4px;
+  border-radius: 0;
+  color: #ff9b71;
+}
+
+
+#mpris {
+  padding: 0 5px;
+  background-color: @bg;
+  box-shadow: 1px 1px 3px 1px @ia1;
+  margin: 2px 4px 4px 4px;
+  color: @fg;
+}
+
+
+
+
+/* Specific Module */
+
+#tray-expander {
+  padding: 0 5px;
+  background: @bg;
+  color: @fg;
+  border-radius: 1px;
+}
+
+.hidden {
+  opacity: 0;
+}
