@@ -1,19 +1,20 @@
 ## Theme for Waybar
 
- with little $${\color{#ff9b71} red}$$ light accents
+ with little $${\color{#ff9b71} red}$$ light accents<br>
+ the left module (after workplaces) are only visual if started for ex. spotify (for cava and mpris) or terminal to mouseover (for hyprland/window)<br>
 
 ## Installation
 
 Install dependencies for cava bar (using Arch-Linux) and wttrbar (weather module)
 
 ```bash
-  sudo pacman -S cava
+  sudo yay -S cava
 ```
 ```bash
-  sudo pacman -S waybar-cava
+  sudo yay -S waybar-cava
 ```
 ```bash
-  sudo pacman -S wttrbar
+  sudo yay -S wttrbar
 ```
     
 ## Screenshots V1
