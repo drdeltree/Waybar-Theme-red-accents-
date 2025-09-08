@@ -17,7 +17,7 @@ Install dependencies for cava bar (using Arch-Linux) and wttrbar (weather module
 ```
     
 ## Screenshots V1
-
+- without hyprland/window & pacman/update module <br>
 <img width="2560" height="1440" alt="screenshot-2025-09-07_18-38-28" src="https://github.com/user-attachments/assets/16c8b398-d1b3-4519-bcbe-e15ad920c7ff" />
 
 ## Screenshots V2
