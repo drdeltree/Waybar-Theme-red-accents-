@@ -1,7 +1,8 @@
 ## Theme for Waybar
 
  with little $${\color{#ff9b71} red}$$ light accents<br>
- the left module (after workplaces) are only visual if started for ex. spotify (for cava and mpris) or terminal to mouseover (for hyprland/window)<br>
+ - the left module (after workplaces) are only visual if started for ex. spotify (for cava and mpris) or terminal to mouseover (for hyprland/window)<br>
+ - please backup your waybar config.jsonc and style.css before installing & using my Theme <br>
 
 ## Installation
 
