@@ -4,13 +4,16 @@
 
 ## Installation
 
-Install dependencies for cava bar (using Arch-Linux)
+Install dependencies for cava bar (using Arch-Linux) and wttrbar (weather module)
 
 ```bash
   sudo pacman -S cava
 ```
 ```bash
   sudo pacman -S waybar-cava
+```
+```bash
+  sudo pacman -S wttrbar
 ```
     
 ## Screenshots V1
