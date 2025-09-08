@@ -57,7 +57,7 @@
     "interval": 300
   },
   "custom/updatespacman": {
-    "format": "{}{icon}",
+    "format": "{} {icon}",
     "return-type": "json",
     "format-icons": {
         "has-updates": "󱍷",
