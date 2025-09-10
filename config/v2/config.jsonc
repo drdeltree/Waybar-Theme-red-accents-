@@ -50,7 +50,7 @@
 	"icon-size": 14
   },
   "custom/update": {
-    "format": "<span font='omarchy'>\ue900</span>",
+    "format": "<span weight='bold' >\ue900</span>",
     "exec": "omarchy-update-available",
     "on-click": "omarchy-launch-floating-terminal-with-presentation omarchy-update",
     "tooltip-format": "Omarchy update available",
