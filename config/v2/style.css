@@ -151,9 +151,12 @@ window#waybar.empty #window {
   box-shadow: 1px 1px 3px 1px @ia1;
   margin: 2px 4px 4px 4px;
   border-radius: 0;
-  color: #ff9b71;
+  color: @rd1;
 }
 
+#custom-update {
+  color: @rd1;
+}
 
 #mpris {
   padding: 0 5px;
