@@ -17,6 +17,9 @@ Install dependencies for cava bar (using Arch-Linux) and wttrbar (weather module
 ```bash
   sudo yay -S wttrbar
 ```
+```bash
+  sudo yay -S waybar-module-pacman-updates-git
+```
     
 ## Screenshots V1
 - without hyprland/window & pacman/update module <br>
