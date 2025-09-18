@@ -34,5 +34,7 @@ Install dependencies for cava bar (using Arch-Linux) and wttrbar (weather module
 <img width="2560" height="1440" alt="screenshot-2025-09-08_00-34-55" src="https://github.com/user-attachments/assets/5cdbb695-83fa-47ec-9271-95dbe4691ffe" />
 
 ## Screenshots V2.1
-- added screenrecord button stop with new Omarchy Update 3.0.1 to waybar config & style <br><img width="300" height="54" alt="screenshot-2025-09-18_22-45-54" src="https://github.com/user-attachments/assets/aa13ae41-6d40-407e-bbe8-cc04c5ff2124" />
+- added screenrecord button stop with new Omarchy Update 3.0.1 to waybar config & style <br>
+- removed hyprland/window module <br>
+<img width="300" height="54" alt="screenshot-2025-09-18_22-45-54" src="https://github.com/user-attachments/assets/aa13ae41-6d40-407e-bbe8-cc04c5ff2124" />
 
