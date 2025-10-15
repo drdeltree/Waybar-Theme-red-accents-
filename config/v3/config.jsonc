@@ -6,10 +6,11 @@
   "height": 30,
   "width": 1268,
   "margin": "2px 6px 0 4",
-  "modules-left": ["custom/omarchy", "hyprland/workspaces"],
+  "modules-left": ["custom/omarchy", "hyprland/workspaces", "hyprland/window"],
   "modules-center": ["clock", "idle_inhibitor", "custom/update", "custom/screenrecording-indicator"],
   "modules-right": [
     "group/tray-expander",
+    "backlight",
     "custom/updatespacman",
     "bluetooth",
     "network",
@@ -42,18 +43,36 @@
       "5": []
     }
   },
+    "hyprland/window": {
+    "format": "{}",
+    "max-length": 40,
+    "separate-outputs": false,
+    "rewrite": {
+      "(.*?) - Chromium": " $1",
+      "^.*nvim( .*|$)": " Neovim $1",
+      "^.*~$": "󰊠 Ghostty",
+      "^.*btop( .*|$)": "󰧨 BTOP $1",
+      "^.*pdf( .*|$)": "",
+      "(.*Discord)...(.*).. (.*)": " $3 - $2"
+    }
+  },
   "custom/omarchy": {
     "format": "<span font='omarchy'>\ue900</span>",
     "on-click": "omarchy-menu",
     "tooltip-format": "Omarchy Menu\n\nSuper + Alt + Space"
   },
   "custom/update": {
-    "format": "",
+    "format": "<span weight='bold' >\ue900</span>",
     "exec": "omarchy-update-available",
     "on-click": "omarchy-launch-floating-terminal-with-presentation omarchy-update",
     "tooltip-format": "Omarchy update available",
     "signal": 7,
     "interval": 3600
+  },
+  "backlight": {
+      "device": "intel_backlight",
+      "format": "{percent}% {icon}",
+      "format-icons": ["🌑", "🌘", "🌗", "🌖", "🌕"]
   },
   "custom/updatespacman": {
     "format": "{} {icon}",
@@ -75,8 +94,8 @@
     "format": "  {percentage}%",
   },
   "clock": {
-    "format": "{:L%I:%M %p}",
-    "format-alt": "{:L%A, %d %B %Y}",
+    "format": "{:L%A %H:%M}",
+    "format-alt": "{:L%d %B W%V %Y}",
     "tooltip": false,
     "on-click-right": "omarchy-cmd-tzupdate"
   },

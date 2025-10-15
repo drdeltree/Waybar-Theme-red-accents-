@@ -9,7 +9,6 @@
   border-radius: 8px;
   font-family: 'CaskaydiaMono Nerd Font Propo';
   font-size: 12px;
-  font-weight: bold;
 }
 
 tooltip {
@@ -43,6 +42,7 @@ tooltip {
   opacity: 0.5;
 }
 
+#hyprland-window,
 #tray,
 #cpu,
 #memory,
@@ -51,6 +51,7 @@ tooltip {
 #bluetooth,
 #pulseaudio,
 #custom-omarchy,
+#backlight,
 #custom-updatespacman,
 #custom-screenrecording-indicator,
 #custom-update {
@@ -87,5 +88,6 @@ tooltip {
 #custom-screenrecording-indicator.active {
   color: #a55555;
 }
-
-
+#window {
+  margin: 8.75px;
+}
