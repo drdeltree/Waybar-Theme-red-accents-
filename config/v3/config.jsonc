@@ -43,20 +43,23 @@
       "5": []
     }
   },
-    "hyprland/window": {
-    "format": "{}",
-    "max-length": 40,
-    "separate-outputs": false,
+"hyprland/window": {
+    "format": "{title} - {class}",
     "rewrite": {
-      "(.*?) - Chromium": " $1",
-      "^.*nvim( .*|$)": " Neovim $1",
-      "^.*~$": "󰊠 Ghostty",
-      "^.*code( .*|$)": "󰨞 VScode $1",
+      " - ": "", // if no window is focused, a single dash is displayed, this removes it
+      "(.*?) - Chromium - chromium": " $1",
+      "(.*) - Obsidian - .* - obsidian": " $1",
+      "(.*nvim)...(.*)": " $2",
+      "(.*code) - (.*)": "󰨞 $1",
       "^.*btop( .*|$)": "󰧨 BTOP $1",
       "^.*cmatrix( .*|$)": "󰘨 MATRIX $1",
-      "^.*(Nautilus)$": " 󰣆  $1",
-      "^.*pdf( .*|$)": "",
-      "(.*Discord)...(.*).. (.*)": " $3 - $2"
+      "(.*) - com.mitchellh.ghostty": "󰊠 $1",
+      "(.*) - Alacritty": "  $1",
+      "(.*) - BeeperTexts": "󰻞  $1",
+      "(.*Discord)...(.*).. (.*)": " $2",
+      "(.*) - org.gnome.Nautilus": "󰣆 $1",
+      // "OBS *. - (.*) - com.obsproject.Studio": "  $1", // not yet functional
+      // "nvim (.*) - com.mitchellh.ghostty": "  $1", // not being captured
     }
   },
   "custom/omarchy": {
