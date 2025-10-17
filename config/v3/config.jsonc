@@ -53,6 +53,7 @@
       "(.*code) - (.*)": "󰨞 $1",
       "^.*btop( .*|$)": "󰧨 BTOP $1",
       "^.*cmatrix( .*|$)": "󰘨 MATRIX $1",
+      "(.*) - Spotify": " $1",
       "(.*) - com.mitchellh.ghostty": "󰊠 $1",
       "(.*) - Alacritty": "  $1",
       "(.*) - BeeperTexts": "󰻞  $1",
