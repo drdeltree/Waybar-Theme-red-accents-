@@ -73,6 +73,8 @@ tooltip {
 
 #custom-update {
   font-size: 10px;
+  padding: 2px 0 0 0px;
+
 }
 
 #clock, #idle_inhibitor {
