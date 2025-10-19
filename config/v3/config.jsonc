@@ -98,7 +98,7 @@
   },
   "memory": {
     "interval": 2,
-    "format": "  {percentage}%",
+    "format": " {percentage}%",
   },
   "clock": {
     "format": "{:L%A %H:%M}",
