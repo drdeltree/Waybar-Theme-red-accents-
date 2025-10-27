@@ -43,3 +43,7 @@ Install dependencies for cava bar (using Arch-Linux) and wttrbar (weather module
 - base config is from https://github.com/CobyPowers/omarchy/tree/master/config/waybar (Credits goes to https://github.com/CobyPowers ) , i added some functions according to my needs and changed the high 
 <img width="1331" height="61" alt="screenshot-2025-10-16_22-02-54" src="https://github.com/user-attachments/assets/9fb7a904-77a3-4bb9-ad73-a2464ad46d4c" />
 
+## Screenshots V3 (shadow_style_css)
+- after downloading style_waybar_shadow.css rename it to style.css and place it together with config.json in your ~/.config/waybar/ folder (do backup before)
+<img width="1412" height="62" alt="screenshot-2025-10-26_19-47-21" src="https://github.com/user-attachments/assets/61ecff4a-9b25-4abf-b8bb-b67fa5bff857" />
+
