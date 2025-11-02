@@ -5,7 +5,7 @@
   "spacing": 0,
   "height": 30,
   "width": 1268,
-  "margin": "2px 6px 0 4",
+  "margin": "-2px",
   "modules-left": ["custom/omarchy", "hyprland/workspaces", "hyprland/window"],
   "modules-center": ["clock", "idle_inhibitor", "custom/update", "custom/screenrecording-indicator"],
   "modules-right": [
