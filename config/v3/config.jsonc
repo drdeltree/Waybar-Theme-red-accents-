@@ -48,6 +48,7 @@
     "rewrite": {
       " - ": "", // if no window is focused, a single dash is displayed, this removes it
       "(.*?) - Chromium - chromium": " $1",
+      "(.*chrome)...(.*)": "  $1 ",
       "(.*) - Obsidian - .* - obsidian": " $1",
       "(.*nvim)...(.*)": " $2",
       "(.*code) - (.*)": "󰨞 $1",
