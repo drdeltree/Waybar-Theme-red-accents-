@@ -79,6 +79,7 @@ tooltip {
 
 #clock, #idle_inhibitor {
   margin-left: 8.75px;
+  margin: 2px;
 }
 
 .hidden {
