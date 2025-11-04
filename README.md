@@ -47,3 +47,9 @@ Install dependencies for cava bar (using Arch-Linux) and wttrbar (weather module
 - after downloading style_waybar_shadow.css rename it to style.css and place it together with config.json in your ~/.config/waybar/ folder (do backup before)
 <img width="1412" height="62" alt="screenshot-2025-10-26_19-47-21" src="https://github.com/user-attachments/assets/61ecff4a-9b25-4abf-b8bb-b67fa5bff857" />
 
+## Screenshots V4
+<img width="1341" height="48" alt="screenshot-2025-11-04_17-41-45" src="https://github.com/user-attachments/assets/a607fd2b-fd91-412b-83b0-afbb2c16c5d7" />
+<img width="2560" height="1440" alt="screenshot-2025-11-04_17-41-21" src="https://github.com/user-attachments/assets/3b71d778-360c-49ce-aa45-788a4a995955" />
+
+- new waybar style with base config from V3 - please backup your config & style file before applying
+- Contributions & Credits to [Adso](https://github.com/adsovetzky/Adso-dotfiles) for helping to finish this :)
