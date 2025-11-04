@@ -54,3 +54,9 @@ Install dependencies for cava bar (using Arch-Linux) and wttrbar (weather module
 - new waybar style with base config from V3 - please backup your config & style file before applying
 - module informations: leftside (omarchy-menu, workspaces, hyprland/window) center (clock, idle_inhibtor, omarchy-update, recording) rightside (packman-updates and the rest)
 - Contributions & Credits to [Adso](https://github.com/adsovetzky/Adso-dotfiles) for helping to finish this :)
+
+## Screenshot V4 (slim)
+- less hight than basic V4 
+<img width="1669" height="1197" alt="screenshot-2025-11-04_23-17-11" src="https://github.com/user-attachments/assets/504aeea0-fe3d-4468-9ff1-c09db25e14fb" />
+
+
