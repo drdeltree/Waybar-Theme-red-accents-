@@ -12,7 +12,7 @@
 }
 
 tooltip {
-  opacity: 0.9;
+  opacity: 1;
  }
 
 window#waybar {
@@ -173,4 +173,15 @@ tooltip {
 
 #tray-expander {
   margin-left: 5px;
+}
+
+tooltip {
+    padding: 4px;
+    background: @background;
+    font-size: 12px;
+    border: 2px solid alpha(@foreground, 0.64);
+    border-radius: 8px;
+}
+tooltip label {
+    color: @foreground;
 }
