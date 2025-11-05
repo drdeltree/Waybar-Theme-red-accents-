@@ -6,8 +6,17 @@
   "height": 30,
   "width": 1268,
   "margin": "-2px",
-  "modules-left": ["custom/omarchy", "hyprland/workspaces", "hyprland/window"],
-  "modules-center": ["clock", "idle_inhibitor", "custom/update", "custom/screenrecording-indicator"],
+  "modules-left": [
+    "custom/omarchy",
+    "hyprland/workspaces",
+    "hyprland/window"
+  ],
+  "modules-center": [
+    "clock",
+    "idle_inhibitor",
+    "custom/update",
+    "custom/screenrecording-indicator"
+  ],
   "modules-right": [
     "group/tray-expander",
     "backlight",
@@ -20,10 +29,14 @@
     "battery"
   ],
   "hyprland/workspaces": {
-    "on-click": "activate",
+    "disable-scroll": true,
+    "all-outputs": true,
+    "tooltip": false,
     "format": "{icon}",
+    "on-click": "activate",
     "format-icons": {
-      "default": "",
+      "urgent": "",
+      "default": "",
       "1": "1",
       "2": "2",
       "3": "3",
@@ -33,34 +46,30 @@
       "7": "7",
       "8": "8",
       "9": "9",
-      "active": "󱓻"
+      "10": "10"
     },
-    "persistent-workspaces": {
-      "1": [],
-      "2": [],
-      "3": [],
-      "4": [],
-      "5": []
-    }
+    "sort-by-number": true
   },
-"hyprland/window": {
+  "hyprland/window": {
     "format": "{title} - {class}",
+    "max-length": 45,
     "rewrite": {
       " - ": "", // if no window is focused, a single dash is displayed, this removes it
-      "(.*?) - Chromium - chromium": " $1",
+      "(.*?) - Chromium - chromium": "  $1 ",
       "(.*chrome)...(.*)": "  $1 ",
-      "(.*) - Obsidian - .* - obsidian": " $1",
-      "(.*nvim)...(.*)": " $2",
-      "(.*code) - (.*)": "󰨞 $1",
-      "^.*btop( .*|$)": "󰧨 BTOP $1",
-      "^.*cmatrix( .*|$)": "󰘨 MATRIX $1",
-      "(.*) - Spotify": " $1",
-      "(.*) - com.mitchellh.ghostty": "󰊠 $1",
-      "(.*) - Alacritty": "  $1",
-      "(.*) - BeeperTexts": "󰻞  $1",
-      "(.*Discord)...(.*).. (.*)": " $2",
-      "(.*) - org.gnome.Nautilus": "󰣆 $1",
-      "(.*Steam)...(.*)": " $1"
+      "(.*) - Obsidian - .* - obsidian": "  $1 ",
+      "(.*nvim)...(.*)": "  $2 ",
+      "(.*code) - (.*)": " 󰨞 $1 ",
+      "^.*btop( .*|$)": " 󰧨 BTOP $1 ",
+      "^.*cmatrix( .*|$)": " 󰘨 MATRIX $1 ",
+      "(.*) - Spotify": "  $1 ",
+      "(.*) - com.mitchellh.ghostty": " 󰊠 $1 ",
+      "(.*) - Alacritty": "   $1 ",
+      "(.*) - BeeperTexts": " 󰻞  $1 ",
+      "(.*Discord)...(.*).. (.*)": "  $2 ",
+      "(.*) - org.gnome.Nautilus": " 󰣆 $1 ",
+      "(.*) - fish": "  [$1] ",
+      "(.*Steam)...(.*)": " $1",
       // "OBS *. - (.*) - com.obsproject.Studio": "  $1", // not yet functional
       // "nvim (.*) - com.mitchellh.ghostty": "  $1", // not being captured
     }
@@ -68,7 +77,7 @@
   "custom/omarchy": {
     "format": "<span font='omarchy'>\ue900</span>",
     "on-click": "omarchy-menu",
-    "on-click-right": "omarchy-launch-terminal",
+    "on-click-right": "xdg-terminal-exec",
     "tooltip-format": "Omarchy Menu\n\nSuper + Alt + Space"
   },
   "custom/update": {
@@ -80,16 +89,22 @@
     "interval": 3600
   },
   "backlight": {
-      "device": "intel_backlight",
-      "format": "{percent}% {icon}",
-      "format-icons": ["🌑", "🌘", "🌗", "🌖", "🌕"]
+    "device": "intel_backlight",
+    "format": "{percent}% {icon}",
+    "format-icons": [
+      "🌑",
+      "🌘",
+      "🌗",
+      "🌖",
+      "🌕"
+    ]
   },
   "custom/updatespacman": {
     "format": "{} {icon}",
     "return-type": "json",
     "format-icons": {
-        "has-updates": "󱍷",
-        "updated": "󰂪"
+      "has-updates": "󱍷",
+      "updated": "󰂪"
     },
     "exec-if": "which waybar-module-pacman-updates",
     "exec": "waybar-module-pacman-updates --interval-seconds 5 --network-interval-seconds 300"
@@ -97,7 +112,7 @@
   "cpu": {
     "interval": 2,
     "format": "󰍛 {usage}%",
-    "on-click": "$TERMINAL -e btop"
+    "on-click": "xdg-terminal-exec btop"
   },
   "memory": {
     "interval": 2,
@@ -107,17 +122,23 @@
     "format": "{:L%A %H:%M}",
     "format-alt": "{:L%d %B W%V %Y}",
     "tooltip": false,
-    "on-click-right": "omarchy-launch-floating-terminal-with-presentation omarchy-tz-select"
+    "on-click-right": "omarchy-cmd-tzupdate"
   },
   "idle_inhibitor": {
     "format": "{icon}",
     "format-icons": {
-        "activated": "",
-        "deactivated": ""
+      "activated": "",
+      "deactivated": ""
     }
   },
   "network": {
-    "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+    "format-icons": [
+      "󰤯",
+      "󰤟",
+      "󰤢",
+      "󰤥",
+      "󰤨"
+    ],
     "format": "{icon}",
     "format-wifi": "{icon}",
     "format-ethernet": "󰀂",
@@ -135,8 +156,30 @@
     "format-charging": "{icon} {capacity}%",
     "format-plugged": "",
     "format-icons": {
-      "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
-      "default": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+      "charging": [
+        "󰢜",
+        "󰂆",
+        "󰂇",
+        "󰂈",
+        "󰢝",
+        "󰂉",
+        "󰢞",
+        "󰂊",
+        "󰂋",
+        "󰂅"
+      ],
+      "default": [
+        "󰁺",
+        "󰁻",
+        "󰁼",
+        "󰁽",
+        "󰁾",
+        "󰁿",
+        "󰂀",
+        "󰂁",
+        "󰂂",
+        "󰁹"
+      ]
     },
     "format-full": "󰂅",
     "tooltip-format-discharging": "{power:>1.0f}W↓ {capacity}%",
@@ -157,13 +200,17 @@
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
-    "on-click": "$TERMINAL --class=Wiremix -e wiremix",
+    "on-click": "xdg-terminal-exec --app-id=com.omarchy.Wiremix -e wiremix",
     "on-click-right": "pamixer -t",
     "tooltip-format": "Playing at {volume}%",
     "scroll-step": 5,
     "format-muted": "",
     "format-icons": {
-      "default": ["", "", ""]
+      "default": [
+        "",
+        "",
+        ""
+      ]
     }
   },
   "group/tray-expander": {
@@ -172,7 +219,10 @@
       "transition-duration": 600,
       "children-class": "tray-group-item"
     },
-    "modules": ["custom/expand-icon", "tray"]
+    "modules": [
+      "custom/expand-icon",
+      "tray"
+    ]
   },
   "custom/expand-icon": {
     "format": " ",
