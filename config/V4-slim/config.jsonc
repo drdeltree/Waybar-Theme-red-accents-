@@ -70,6 +70,7 @@
       "(.*) - org.gnome.Nautilus": " 󰣆 $1 ",
       "(.*) - fish": "  [$1] ",
       "(.*Steam)...(.*)": " $1",
+      "(.*imv)...(.*).. (.*)": " $2",
       // "OBS *. - (.*) - com.obsproject.Studio": "  $1", // not yet functional
       // "nvim (.*) - com.mitchellh.ghostty": "  $1", // not being captured
     }
