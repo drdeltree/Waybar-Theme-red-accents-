@@ -3,9 +3,9 @@
   "layer": "top",
   "position": "top",
   "spacing": 0,
-  "height": 25,
+  "height": 36,
   "width": 1280,
-  "margin": "0",
+  "margin": "0px 6px 0 6",
   "modules-left": [
     "custom/omarchy",
     "hyprland/workspaces",
@@ -69,7 +69,7 @@
       "(.*Discord)...(.*).. (.*)": "  $2 ",
       "(.*) - org.gnome.Nautilus": " 󰣆 $1 ",
       "(.*) - fish": "  [$1] ",
-      "(.*Steam)...(.*)": "  $1 ",
+      "(.*Steam)...(.*)": " $1",
       "(.*imv)...(.*).. (.*)": "  $2 ",
       // "OBS *. - (.*) - com.obsproject.Studio": "  $1", // not yet functional
       // "nvim (.*) - com.mitchellh.ghostty": "  $1", // not being captured

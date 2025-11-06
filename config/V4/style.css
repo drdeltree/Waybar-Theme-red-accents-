@@ -9,13 +9,15 @@
   /* border-radius: 8px; */
   font-family: 'CaskaydiaMono Nerd Font Propo';
   font-size: 12px;
+  min-height: 0;
 }
 
 tooltip {
   opacity: 1;
+
  }
 
-window#waybar {
+ window#waybar {
   background-color: transparent;
   color: @foreground;
 }
@@ -30,18 +32,18 @@ window#waybar.empty #window{
 
 #waybar > box {
     border-radius: 8px;
-    margin: 4px 8px 4px 8px;
+    margin: 0px 8px 4px 8px;
    /* background-color: rgba(18, 21, 29, 0.98);*/
     background-color: @background;
    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.7);*/
     box-shadow: 1px 1px 3px 1px #101010;
     transition-property: background-color;
     transition-duration: .5s;
-}
+    }
 
 
 .modules-left {
-  margin-left: 8px;
+  margin-left: 2px;
 }
 
 .modules-right {
@@ -60,8 +62,10 @@ window#waybar.empty #window{
 }
 
 #custom-omarchy {
-  padding: 4px 0px;
-  margin: 8px;
+  padding: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin: 4px;
   font-size: 18px;
 }
 
