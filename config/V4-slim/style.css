@@ -17,7 +17,7 @@ tooltip {
 
  }
 
-window#waybar {
+ window#waybar {
   background-color: transparent;
   color: @foreground;
 }
@@ -32,14 +32,14 @@ window#waybar.empty #window{
 
 #waybar > box {
     border-radius: 8px;
-    margin: 4px 8px 4px 8px;
+    margin: 0px 8px 4px 8px;
    /* background-color: rgba(18, 21, 29, 0.98);*/
     background-color: @background;
    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.7);*/
     box-shadow: 1px 1px 3px 1px #101010;
     transition-property: background-color;
     transition-duration: .5s;
-}
+    }
 
 
 .modules-left {
