@@ -184,6 +184,7 @@ tooltip {
     background: @background;
     font-size: 12px;
     border: 2px solid alpha(@foreground, 0.64);
+    box-shadow: 1px 1px 3px 1px #131313;
     border-radius: 8px;
 }
 tooltip label {
