@@ -41,7 +41,8 @@ Install dependencies for cava bar (using Arch-Linux) and wttrbar (weather module
 ## Screenshots V3
 - new waybar Style (without red accents)
 - base config is from https://github.com/CobyPowers/omarchy/tree/master/config/waybar (Credits goes to https://github.com/CobyPowers ) , i added some functions according to my needs and changed the high 
-<img width="1331" height="61" alt="screenshot-2025-10-16_22-02-54" src="https://github.com/user-attachments/assets/9fb7a904-77a3-4bb9-ad73-a2464ad46d4c" />
+<img width="1310" height="209" alt="screenshot-2025-11-07_12-03-43" src="https://github.com/user-attachments/assets/852ce3fe-f2d0-4b2b-b7da-3ad0e4b79e4c" />
+
 
 ## Screenshots V3 (shadow)
 - all shadow , waybar and tooltip
