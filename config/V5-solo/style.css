@@ -1,0 +1,183 @@
+@import "../omarchy/current/theme/waybar.css";
+
+/* Adso messenge: dude need to learn more about clean code :broken_heart: */
+
+* {
+  /* background-color: @background; */
+  /*color: @foreground:*/
+  border: none;
+  /* border-radius: 8px; */
+  font-family: 'CaskaydiaMono Nerd Font Propo';
+  font-size: 13px;
+}
+
+tooltip {
+  opacity: 1;
+ }
+
+window#waybar {
+  background: transparent;
+  color: @foreground;
+}
+
+window#waybar.empty #window{
+  background: transparent;
+  color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.modules-left {
+  margin-left: 0px;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 8px;
+  border: 2px solid alpha(@foreground, 0.8);
+  background-color: @background;
+  box-shadow: 1px 1px 3px 1px alpha(@foreground, 0.4);
+}
+
+.modules-right {
+  margin-right: 8px;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 8px;
+  border: 2px solid alpha(@foreground, 0.8);
+  background-color: @background;
+  box-shadow: 1px 1px 3px 1px alpha(@foreground, 0.4);
+}
+
+.modules-center {
+  margin: 2px;
+  padding: 2px;
+  border-radius: 8px;
+  border: 2px solid alpha(@foreground, 0.8);
+  background-color: @background;
+  box-shadow: 1px 1px 3px 1px alpha(@foreground, 0.6);
+}
+
+#custom-omarchy {
+  font-size: 18px;
+}
+
+#window {
+  margin: 2px;
+  padding: 2px;
+}
+
+#workspaces {
+    margin: 2px; 
+    padding: 2px 0px;
+    border-radius: 10px;
+    background-color: alpha(@foreground, 0.3);
+    opacity: 0.95;
+}
+
+#workspaces button {
+    padding: 0px 10px;
+    margin: 0px 2px;
+    border-radius: 8px;
+    background-color: alpha(@foreground, 1);
+    color: @foreground;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.6;
+    font-size: 8px;
+}
+
+#workspaces button.active {
+    color: @foreground;
+    background-color: @background;
+    border-radius: 8px;
+    min-width: 30px;
+    opacity: 1.0;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button:hover {
+    color: @foreground;
+    background: @background;
+    border-radius: 8px;
+    min-width: 30px;
+    opacity: 0.9;
+}
+
+
+#workspaces button.empty {
+  opacity: 0.2;
+}
+
+#hyprland-window,
+#tray,
+#cpu,
+#memory,
+#battery,
+#network,
+#bluetooth,
+#pulseaudio,
+#custom-omarchy,
+#backlight,
+#custom-updatespacman,
+#custom-screenrecording-indicator,
+#custom-update {
+  min-width: 12px;
+  margin: 0 7.5px;
+}
+
+#custom-expand-icon {
+  margin-right: 7px;
+}
+
+tooltip {
+  padding: 0.5px;
+}
+
+#custom-update {
+  font-size: 10px;
+  margin: 2px;
+}
+
+#clock, #idle_inhibitor {
+  margin-left: 8.75px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#custom-screenrecording-indicator {
+  min-width: 12px;
+  margin-left: 8.75px;
+  font-size: 10px;
+}
+
+#custom-screenrecording-indicator.active {
+  color: #a55555;
+}
+
+/*
+#window {
+  margin: 8.75px;
+}*/
+
+/* Adso add! */
+
+#idle_inhibitor {
+  margin-right: 5px;
+}
+
+#tray-expander {
+  margin-left: 5px;
+}
+
+tooltip {
+    padding: 4px;
+    background: @background;
+    font-size: 12px;
+    border: 2px solid alpha(@foreground, 0.64);
+    box-shadow: 1px 1px 3px 1px alpha(@foreground, 0.3);
+    border-radius: 8px;
+}
+tooltip label {
+    color: @foreground;
+}
