@@ -19,8 +19,8 @@
   ],
   "modules-right": [
     "group/tray-expander",
+    "custom/updatespacman",    
     "backlight",
-    "custom/updatespacman",
     "bluetooth",
     "network",
     "pulseaudio",
