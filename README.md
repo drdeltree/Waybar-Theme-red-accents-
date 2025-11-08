@@ -61,5 +61,9 @@ Install dependencies for cava bar (using Arch-Linux) and wttrbar (weather module
 - less hight than basic V4 
 <img width="1298" height="925" alt="screenshot-2025-11-04_23-32-53" src="https://github.com/user-attachments/assets/0d2c5f3e-8416-44ee-9a9a-8148bbb8177c" />
 
+## Screenshot V5 (solo bars)
+- i dont know why i did it , have fun
+<img width="1549" height="459" alt="screenshot-2025-11-08_22-19-47" src="https://github.com/user-attachments/assets/dba07ce4-1930-4b45-9220-2d5c4e9543da" />
+<img width="1915" height="506" alt="screenshot-2025-11-08_21-57-04" src="https://github.com/user-attachments/assets/a31e2f6c-33bc-495e-9219-b8eddca1d211" />
 
 
