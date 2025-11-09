@@ -1,4 +1,4 @@
-## Theme for Waybar
+## Waybar Themes for linux
 
  with little $${\color{#ff9b71} red}$$ light accents<br>
  - the left module (after workplaces) are only visual if started for ex. spotify (for cava and mpris) or terminal to mouseover (for hyprland/window)<br>
