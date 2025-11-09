@@ -30,8 +30,8 @@ window#waybar.empty #window{
 
 .modules-left {
   margin-left: 0px;
-  margin: 2px;
-  padding: 2px;
+  margin: 0;
+  padding: 0;
   border-radius: 8px;
   border: 2px solid alpha(@foreground, 0.8);
   background-color: @background;
@@ -40,8 +40,8 @@ window#waybar.empty #window{
 
 .modules-right {
   margin-right: 8px;
-  margin: 2px;
-  padding: 2px;
+  margin: 0px;
+  padding: 0px;
   border-radius: 8px;
   border: 2px solid alpha(@foreground, 0.8);
   background-color: @background;
@@ -49,8 +49,8 @@ window#waybar.empty #window{
 }
 
 .modules-center {
-  margin: 2px;
-  padding: 2px;
+  margin: 0;
+  padding: 0;
   border-radius: 8px;
   border: 2px solid alpha(@foreground, 0.8);
   background-color: @background;
@@ -58,26 +58,26 @@ window#waybar.empty #window{
 }
 
 #custom-omarchy {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 #window {
-  margin: 2px;
-  padding: 2px;
+  margin: 0px;
+  padding: 1px;
 }
 
 #workspaces {
-    margin: 2px; 
-    padding: 2px 0px;
-    border-radius: 10px;
+    margin: 3px 4px;
+    padding: 0px 4px 0 1px;
+    border-radius: 6px;
     background-color: alpha(@foreground, 0.3);
     opacity: 0.95;
 }
 
 #workspaces button {
-    padding: 0px 10px;
-    margin: 0px 2px;
-    border-radius: 8px;
+    padding: 0px 12px;
+    margin: 1px 2px;
+    border-radius: 6px;
     background-color: alpha(@foreground, 1);
     color: @foreground;
     transition: all 0.3s ease-in-out;
@@ -88,7 +88,7 @@ window#waybar.empty #window{
 #workspaces button.active {
     color: @foreground;
     background-color: @background;
-    border-radius: 8px;
+    border-radius: 6px;
     min-width: 30px;
     opacity: 1.0;
     transition: all 0.3s ease-in-out;
