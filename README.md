@@ -1,20 +1,12 @@
 ## Waybar Themes for linux
 
- with little $${\color{#ff9b71} red}$$ light accents<br>
- - the left module (after workplaces) are only visual if started for ex. spotify (for cava and mpris) or terminal to mouseover (for hyprland/window)<br>
- - please backup your waybar config.jsonc and style.css before installing & using my Theme <br>
- - picture where taken with installed Omarchy-Theme: https://github.com/bjarneo/omarchy-firesky-theme.git <br>
+ A collection of my Waybar themes – have fun exploring and customizing them!
 
 ## Installation
 
-Install dependencies for cava bar (using Arch-Linux) and wttrbar (weather module)
+This is optional - not fully required to have Theme applyed for V3 and up
+V1 to V2 requires some extra packages which i dont use anymore (wttrbar etc) - those dependencies are here (waybar-cava is not working for me, so i skipped it):  
 
-```bash
-  sudo yay -S cava
-```
-```bash
-  sudo yay -S waybar-cava
-```
 ```bash
   sudo yay -S wttrbar
 ```
