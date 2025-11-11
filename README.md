@@ -4,13 +4,13 @@
 
 ## Installation
 
-To get the basic functionality, <B>it’s enough to copy only the config.jsonc and style.css files — everything else is optional add-ons, such as wttrbar or waybar-pacman <br>
+To get the basic functionality, it’s enough to copy only the config.jsonc and style.css files  — everything else is optional add-ons, such as wttrbar or waybar-pacman <br>
 
 ```bash
-  sudo yay -S wttrbar
+  yay -S wttrbar
 ```
 ```bash
-  sudo yay -S waybar-module-pacman-updates-git
+  yay -S waybar-module-pacman-updates-git
 ```
 - Copy the downloaded config.jsonc and style.css files (these are usually located in your ~/Downloads/ folder) and replace the existing configuration files in <br>
 ```
