@@ -4,8 +4,8 @@
 
 ## Installation
 
-This is optional - not fully required to have Theme applyed for V3 and up
-V1 to V2 requires some extra packages which i dont use anymore (wttrbar etc) - those dependencies are here (waybar-cava is not working for me, so i skipped it):  
+- This is optional - not fully required to have Theme applyed for V3 and up <br>
+- V1 to V2 requires some extra packages which i dont use anymore (wttrbar etc) - those dependencies are here (yay -S waybar-cava is not working for me, so i skipped it):  
 
 ```bash
   sudo yay -S wttrbar
