@@ -4,14 +4,25 @@
 
 ## Installation
 
-- This is optional - not fully required to have Theme applyed for V3 and up <br>
-- V1 to V2 requires some extra packages which i dont use anymore (wttrbar etc) - those dependencies are here (yay -S waybar-cava is not working for me, so i skipped it):  
+To get the basic functionality, <B>it’s enough to copy only the config.jsonc and style.css files — everything else is optional add-ons, such as wttrbar or waybar-pacman <br>
 
 ```bash
   sudo yay -S wttrbar
 ```
 ```bash
   sudo yay -S waybar-module-pacman-updates-git
+```
+- Copy the downloaded config.jsonc and style.css files (these are usually located in your ~/Downloads/ folder) and replace the existing configuration files in <br>
+```
+cp -r ~/Downloads/config.jsonc ~/.config/waybar/
+```
+```
+cp -r ~/Downloads/style.css ~/.config/waybar/
+```
+
+After that, restart your Waybar by typing:
+```
+omarchy-restart-waybar
 ```
     
 ## Screenshots V1
