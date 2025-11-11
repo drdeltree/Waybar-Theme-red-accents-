@@ -69,4 +69,12 @@ omarchy-restart-waybar
 - i dont know why i did it , have fun
 <img width="1915" height="506" alt="screenshot-2025-11-08_21-57-04" src="https://github.com/user-attachments/assets/a31e2f6c-33bc-495e-9219-b8eddca1d211" />
 
+## Screenshot V6 
+- Original version by [Adso](https://github.com/adsovetzky/Adso-dotfiles), adapted by me to fit my needs.
+- Shadow effects in the text field, icons, and page margins
+- length of waybar can be adjust in config.jsonc in line 8 & 9 - adjust margin-left and margin-right as you need
+- <img width="1264" height="803" alt="screenshot-2025-11-12_00-03-51" src="https://github.com/user-attachments/assets/56eb8a58-fc05-4634-9671-c9e8f5e8f9fe" />
+<img width="1264" height="547" alt="screenshot-2025-11-12_00-08-38" src="https://github.com/user-attachments/assets/7e5a2728-31bc-4ae3-9367-05c7f6dcc856" />
+
+
 
