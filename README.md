@@ -13,6 +13,7 @@ To get the basic functionality, it’s enough to copy only the config.jsonc and 
   yay -S waybar-module-pacman-updates-git
 ```
 - Copy the downloaded config.jsonc and style.css files (these are usually located in your ~/Downloads/ folder) and replace the existing configuration files in <br>
+- Create a backup of your current config.jsonc and style.css before replacing them  
 ```
 cp -r ~/Downloads/config.jsonc ~/.config/waybar/
 ```
