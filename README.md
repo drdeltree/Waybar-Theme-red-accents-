@@ -78,7 +78,8 @@ omarchy-restart-waybar
 
 ## Screenshot V6.b 
 - less hight and added borders
-  <img width="1245" height="507" alt="screenshot-2025-11-12_18-29-09" src="https://github.com/user-attachments/assets/06d27fd3-5b1b-4f5b-a354-2cbef5089302" />
+  <img width="1323" height="512" alt="screenshot-2025-11-12_19-23-18" src="https://github.com/user-attachments/assets/e5d01188-9c93-4a5b-8a16-fe8bc370e2d9" />
+
 
 
 
