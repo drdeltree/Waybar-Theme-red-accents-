@@ -14,7 +14,7 @@
 
 
 window#waybar  {
-  background-color: @transparent;
+  background-color: @background;
   color: @foreground;
   /* border-top: 1px solid alpha(@foreground, 0.9); */
   border-bottom: 2px solid alpha(@foreground, 0.9);
