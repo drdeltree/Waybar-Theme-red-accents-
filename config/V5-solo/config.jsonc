@@ -102,13 +102,14 @@
     ]
   },
   "custom/updatespacman": {
-    "format": "󰏖",
-    "exec": "checkupdates | wc -l",
-    "exec-if": "if [[ $(checkupdates | wc -l) -gt 0 ]]; then exit 0; fi; exit 1",
-    "on-click": "omarchy-launch-floating-terminal-with-presentation yay",
-    "tooltip-format": "{text} package updates available",
-    "signal": 7,
-    "interval": 21600,
+    "format": "{icon}",
+    "return-type": "json",
+    "format-icons": {
+      "has-updates": "󰏖 ",
+      "updated": "󰂪"
+    },
+    "exec-if": "which waybar-module-pacman-updates",
+    "exec": "waybar-module-pacman-updates --interval-seconds 5 --network-interval-seconds 300"
   },
   "cpu": {
     "interval": 2,
