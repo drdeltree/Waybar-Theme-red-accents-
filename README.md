@@ -67,7 +67,8 @@ omarchy-restart-waybar
 
 ## Screenshot V5 (solo bars)
 - i dont know why i did it , have fun
-<img width="1915" height="506" alt="screenshot-2025-11-08_21-57-04" src="https://github.com/user-attachments/assets/a31e2f6c-33bc-495e-9219-b8eddca1d211" />
+<img width="2560" height="1440" alt="screenshot-2025-11-14_14-17-18" src="https://github.com/user-attachments/assets/691322cc-2fa4-4665-a14f-02a3a8d24b14" />
+
 
 ## Screenshot V6 
 - Original version by [Adso](https://github.com/adsovetzky/Adso-dotfiles), adapted by me to fit my needs and style.
