@@ -72,7 +72,9 @@ omarchy-restart-waybar
 ## Screenshot V5.b
 - trying something new.b
 <img width="1520" height="42" alt="screenshot-2025-11-14_14-34-00" src="https://github.com/user-attachments/assets/871f25a4-dc74-4e0b-a321-f73a2cd148bd" />
-<img width="1537" height="39" alt="screenshot-2025-11-14_14-39-35" src="https://github.com/user-attachments/assets/52d12625-1660-4f42-9540-b0ae4ee09416" />
+<img width="1920" height="1080" alt="screenshot-2025-11-14_23-18-39" src="https://github.com/user-attachments/assets/7e92e1c3-3d09-40d7-9703-95d7b21a14f1" />
+
+
 
 
 
