@@ -3,7 +3,7 @@
   "layer": "top",
   "position": "top",
   "spacing": 0,
-  "height": 25,
+  "height": 15,
   "width": 1440,
   "margin": "0",
   "modules-left": [
@@ -19,8 +19,8 @@
   ],
   "modules-right": [
     "group/tray-expander",
-    "custom/updatespacman",    
     "backlight",
+    "custom/updatespacman",
     "bluetooth",
     "network",
     "pulseaudio",
@@ -102,14 +102,14 @@
     ]
   },
   "custom/updatespacman": {
-  "format": "󰏖",
-  "exec": "checkupdates | wc -l",
-  "exec-if": "if [[ $(checkupdates | wc -l) -gt 0 ]]; then exit 0; fi; exit 1",
-  "on-click": "omarchy-launch-floating-terminal-with-presentation yay",
-  "tooltip-format": "{text} package updates available",
-  "signal": 7,
-  "interval": 21600,
-},
+    "format": "󰏖",
+    "exec": "checkupdates | wc -l",
+    "exec-if": "if [[ $(checkupdates | wc -l) -gt 0 ]]; then exit 0; fi; exit 1",
+    "on-click": "omarchy-launch-floating-terminal-with-presentation yay",
+    "tooltip-format": "{text} package updates available",
+    "signal": 7,
+    "interval": 21600,
+  },
   "cpu": {
     "interval": 2,
     "format": "󰍛 {usage}%",
@@ -121,7 +121,7 @@
   },
   "clock": {
     "format": "{:L%A %H:%M}",
- "format-alt": "{:%A %d/%m/%Y}",
+    "format-alt": "{:%A %d/%m/%Y}",
     "tooltip-format": "<span>{calendar}</span>",
     "calendar": {
       "mode": "mouth",
@@ -135,7 +135,7 @@
     },
     "on-click-right": "~/.local/share/omarchy/bin/omarchy-cmd-tzupdate"
   },
-    "idle_inhibitor": {
+  "idle_inhibitor": {
     "format": "{icon}",
     "format-icons": {
       "activated": "",
