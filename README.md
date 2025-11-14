@@ -66,8 +66,13 @@ omarchy-restart-waybar
 <img width="1298" height="925" alt="screenshot-2025-11-04_23-32-53" src="https://github.com/user-attachments/assets/0d2c5f3e-8416-44ee-9a9a-8148bbb8177c" />
 
 ## Screenshot V5 (solo bars)
-- i dont know why i did it , have fun
+- trying something new 
 <img width="2560" height="1440" alt="screenshot-2025-11-14_14-17-18" src="https://github.com/user-attachments/assets/691322cc-2fa4-4665-a14f-02a3a8d24b14" />
+
+## Screenshot V5.b
+- trying something new.b
+<img width="1520" height="42" alt="screenshot-2025-11-14_14-34-00" src="https://github.com/user-attachments/assets/871f25a4-dc74-4e0b-a321-f73a2cd148bd" />
+
 
 
 ## Screenshot V6 
