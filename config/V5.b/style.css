@@ -1,9 +1,9 @@
 @import "../omarchy/current/theme/waybar.css";
 
-/* Adso messenge: dude need to learn more about clean code :broken_heart: */
+
 
 * {
-  /* background-color: @background; */
+  background: transparent;
   /*color: @foreground:*/
   border: none;
   /* border-radius: 8px; */
@@ -18,7 +18,6 @@ tooltip {
 
 #waybar > box {
   margin: 1px;
-  box-shadow: 1px 1px 3px 1px alpha(@foreground, 0.3);
 }
 
 window#waybar {
@@ -46,16 +45,13 @@ window#waybar.empty #window{
   margin-right: 8px;
   margin: 0;
   padding: 1px 0 1px;
-  border-radius: 4px;
 }
 
 .modules-center {
-  margin: 0;
+  margin: 1px 2px;
   padding: 1px 0 1px;
-  border-radius: 4px;
   border-left: 1px solid alpha(@foreground, 0.2);
   border-right: 1px solid alpha(@foreground, 0.2);
-  padding: 0 15px;
 }
 
 #custom-omarchy {
@@ -144,6 +140,10 @@ tooltip {
 
 .hidden {
   opacity: 0;
+}
+
+#custom-updatespacman {
+  margin-right: 2px;
 }
 
 #custom-screenrecording-indicator {
