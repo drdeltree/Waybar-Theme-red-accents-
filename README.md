@@ -4,11 +4,8 @@
 
 ## Installation
 
-To get the basic functionality, it’s enough to copy only the config.jsonc and style.css files  — everything else is optional add-ons, such as wttrbar or waybar-pacman <br>
+To get the basic functionality, it’s enough to copy only the config.jsonc and style.css files  — everything else is optional add-ons, such as waybar-pacman module to see incomming updates <br>
 
-```bash
-  yay -S wttrbar
-```
 ```bash
   yay -S waybar-module-pacman-updates-git
 ```
