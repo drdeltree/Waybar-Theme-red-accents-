@@ -4,10 +4,9 @@
   "layer": "top",
   "position": "top",
   "spacing": 0,
-  "height": 25,
+  "height": 32,
   "margin-top": -5,
-  "margin-left": 700,
-  "margin-right": 700,
+  "width": 1400,
   "modules-left": [
     "custom/omarchy",
     "hyprland/workspaces",
@@ -26,7 +25,6 @@
     "custom/updatespacman",
     "bluetooth",
     "network",
-    "backlight",
     "pulseaudio",
     "cpu",
     "memory",
@@ -267,14 +265,4 @@
     "icon-size": 12,
     "spacing": 12
   },
-  "backlight": {
-    "device": "intel_backlight",
-    "format": "{icon}{percent}%",
-    "scroll-step": 5,
-    "format-icons": [
-      "󱓤 ",
-      " ",
-      " "
-    ]
-  }
 }
