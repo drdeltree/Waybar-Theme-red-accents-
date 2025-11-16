@@ -1,0 +1,182 @@
+@import "../omarchy/current/theme/waybar.css";
+
+* {
+  /* background-color: @background; */
+  /* color: @foreground; */
+
+  border: none;
+  padding: 1px;
+  min-height: 0;
+  font-family: 'CaskaydiaMono Nerd Font Propo';
+  font-weight: normal;
+  font-size: 12px;
+}
+
+
+window#waybar  {
+  background-color: @background;
+  color: @foreground;
+  /* border-top: 1px solid alpha(@foreground, 0.9); */
+  border-bottom: 2px solid alpha(@foreground, 0.9);
+  /* border-radius: 0 0 10 10; */
+  transition-property: background-color;
+  transition-duration: .5s;
+  border-left: 2px solid alpha(@foreground, 0.9);
+  border-right: 2px solid alpha(@foreground, 0.9);
+  border-radius: 6px;
+}
+
+#window {
+  text-shadow: 0px 0px 2px alpha(@foreground, 0.6);
+  margin: 0;
+  padding: 0;
+  padding-top: 2px;
+}
+
+#custom-omarchy {
+padding: 3px 0 0;
+font-size: 14px;
+}
+
+.modules-left {
+ margin-left: 8px;
+ text-shadow: 0px 0px 2px alpha(@foreground, 0.5);
+
+}
+.modules-center {
+  border-radius: 0;
+  border-left: 1px solid alpha(@foreground, 0.2);
+  border-right: 1px solid alpha(@foreground, 0.2);
+  text-shadow: 0px 0px 2px alpha(@foreground, 0.6);
+  padding: 0 20px;
+  padding-top: 4px;
+}
+.modules-right {
+  padding-top: 4px;
+  margin-right: 8px;
+  text-shadow: 0px 0px 2px alpha(@foreground, 0.5);
+
+}
+
+
+#workspaces {
+    background: transparent;
+    margin: 3px 0px;
+    padding: 10px 6px;
+    margin-left: -6px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    border-radius: 26px;
+}
+
+#workspaces button {
+    min-width: 6px;
+    min-height: 8px;
+    padding: 1;
+    margin: 0 6px;
+    border-radius: 1px;
+    background-color: alpha(@foreground, 0.75);
+    transition: all 0.15s ease-in-out;
+}
+
+#workspaces button.active,
+#workspaces button:hover {
+    background-color: @foreground;
+    border-radius: 1px;
+    min-width: 25px;
+    transition: all 0.15s ease-in-out;
+}
+#workspaces button.empty {
+    opacity: 0.45;
+}
+
+#workspaces button label {
+    font-size: 0px;
+}
+
+#workspaces button {
+    /* margin-top: 1px; */
+    /* margin-bottom: -1px; */
+    font-size: 12.5px;
+    background: @foreground;
+    font-weight: 800;
+}
+
+
+#custom-image,
+#backlight, #custom-weather, #memory, #mpris, #window,
+#hyprland-window,
+#tray,
+#cpu,
+#battery,
+#network,
+#bluetooth,
+#pulseaudio,
+#custom-omarchy,
+#idle_inhibitor,
+#custom-updatespacman,
+#custom-screenrecording-indicator,
+#custom-update {
+  min-width: 12px;
+  margin: 0 7.5px;
+}
+
+#custom-expand-icon {
+  margin-right: 7px;
+}
+
+tooltip {
+  padding: 2px;
+}
+
+#custom-update {
+  font-size: 10px;
+}
+
+#window, #hyprland-window {
+  margin: 0;
+}
+
+
+.hidden {
+  opacity: 0;
+}
+
+#custom-screenrecording-indicator {
+  min-width: 12px;
+  margin-left: 8.75px;
+  font-size: 10px;
+
+  padding: 0 11 0 10;
+}
+
+#custom-screenrecording-indicator.active {
+  color: #a55555;
+}
+
+
+/* EXTRA FIX! */
+
+#bluetooth {
+  margin: 0 5 0 5;
+}
+
+#mpris {
+  margin-right: 10px;
+}
+
+#idle_inhibitor {
+  margin-right: 5px;
+}
+
+tooltip {
+    background-color: alpha(@background, 1);
+    border: 2px solid alpha(@foreground, 0.5);
+    border-radius: 8px;
+    box-shadow: 1px 3px 1px alpha(@background, 0.3);
+    padding: 4px;
+}
+
+tooltip label {
+    color: @foreground;
+}
