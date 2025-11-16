@@ -101,7 +101,7 @@ git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf
 ## Screenshot V6 
 - Original version by [Adso](https://github.com/adsovetzky/Adso-dotfiles), adapted by me to fit my needs and style<br>
 - Shadow effects in the text field, icons, and page margins<br>
-- length of waybar can be adjust in config.jsonc in line 8 & 9 - adjust margin-left and margin-right as you need<br>
+- length of waybar can be adjust in config.jsonc and change the "width" value to your needs
 ##### V6 Install-command (copy and paste in your terminal): <br>
 ```bash
 git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf /tmp/repo/config/V6/. ~/.config/waybar && rm -rf /tmp/repo && omarchy-restart-waybar
