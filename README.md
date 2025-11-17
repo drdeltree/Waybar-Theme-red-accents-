@@ -109,7 +109,7 @@ git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf
 ## Screenshot V5.d
 - added border waybar, added border workspace, exchanged center and left modules <br>
 - excluded idle_inhibtor (you can activate it by removing the comment //)
-- added opacity to hyprland/window
+- added opacity to hyprland/window and right module
 ##### V5.d Install-command (copy and paste in your terminal): <br>
 ```bash
 git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf /tmp/repo/config/V5.d/. ~/.config/waybar && rm -rf /tmp/repo && omarchy-restart-waybar
