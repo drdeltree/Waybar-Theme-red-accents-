@@ -1,0 +1,184 @@
+@import "../omarchy/current/theme/waybar.css";
+
+
+
+* {
+  /*background: transparent;*/
+  /*color: @foreground:*/
+  border: none;
+  /* border-radius: 8px; */
+  font-family: 'CaskaydiaMono Nerd Font Propo';
+  font-size: 12px;
+  min-height: 0;
+}
+
+tooltip {
+  opacity: 1;
+ }
+
+#waybar > box {
+  margin: 1px;
+}
+
+window#waybar {
+  background-color: @background;
+  color: @foreground;
+  border: 2px solid alpha(@foreground, 0.8);
+  border-radius: 4px;
+}
+
+window#waybar.empty #window{
+  background: transparent;
+  color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.modules-left {
+  margin-left: 0px;
+  margin: 0;
+  padding: 1px 0px 1px;
+}
+
+.modules-right {
+  margin-right: 8px;
+  margin: 0;
+  padding: 1px 0 1px;
+}
+
+.modules-center {
+  margin: 1px 2px;
+  padding: 1px 0 1px;
+}
+
+#custom-omarchy {
+  font-size: 12px;
+  padding: 6px 0 4px;
+}
+
+#window {
+  margin: 0px;
+  opacity: 0.65;
+}
+
+#workspaces {
+    margin: 0;
+    padding: 1px 2px 1px;
+    border-radius: 2px;
+    background-color: alpha(@foreground, 0.3);
+    border: 1px solid alpha(@foreground, 0.4);
+    opacity: 0.95;
+}
+
+#workspaces button {
+    padding: 0px 5px;
+    margin: 1px 2px;
+    border-radius: 2px;
+    background-color: alpha(@foreground, 1);
+    color: @foreground;
+    transition: all 0.3s ease-in-out;
+    opacity: 0.6;
+    font-size: 8px;
+}
+
+#workspaces button.active {
+    color: @foreground;
+    background-color: @background;
+    border-radius: 2px;
+    min-width: 18px;
+    opacity: 1.0;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button:hover {
+    color: @foreground;
+    background: @background;
+    border-radius: 2px;
+    min-width: 30px;
+    opacity: 0.9;
+}
+
+
+#workspaces button.empty {
+  opacity: 0.2;
+}
+
+#hyprland-window,
+#tray,
+#cpu,
+#memory,
+#battery,
+#network,
+#bluetooth,
+#pulseaudio,
+#custom-omarchy,
+#backlight,
+#custom-updatespacman,
+#custom-screenrecording-indicator,
+#custom-update {
+  min-width: 12px;
+  margin: 0 7.5px;
+}
+
+#custom-expand-icon {
+  margin-right: 7px;
+}
+
+tooltip {
+  padding: 0.5px;
+}
+
+#custom-update {
+  font-size: 10px;
+  margin: 2px;
+}
+
+#clock, #idle_inhibitor, #custom-update {
+  margin-left: 2px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#custom-updatespacman {
+  margin-right: 0px;
+}
+
+#custom-screenrecording-indicator {
+  min-width: 12px;
+  margin-left: 8.75px;
+  font-size: 10px;
+}
+
+#custom-screenrecording-indicator.active {
+  color: #a55555;
+}
+
+/*
+#window {
+  margin: 8.75px;
+}*/
+
+/* Adso add! */
+
+#idle_inhibitor {
+  margin-right: 5px;
+}
+
+#tray-expander {
+  margin-left: 5px;
+}
+
+tooltip {
+    padding: 4px;
+    background: @background;
+    font-size: 12px;
+    border: 2px solid alpha(@foreground, 0.64);
+    box-shadow: 1px 1px 3px 1px alpha(@foreground, 0.3);
+    border-radius: 8px;
+}
+tooltip label {
+    color: @foreground;
+}
