@@ -106,6 +106,17 @@ git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf
 <img width="1571" height="91" alt="screenshot-2025-11-17_14-30-31" src="https://github.com/user-attachments/assets/7ce611ae-a3d7-4d12-a3dd-5b5cf27ed7ba" />
 <img width="1543" height="122" alt="screenshot-2025-11-17_14-30-43" src="https://github.com/user-attachments/assets/88ea2500-054f-4d23-9429-9c3e79c657e0" />
 
+## Screenshot V5.d
+- added border waybar, added border workspace, exchanged center and left modules <br>
+- excluded idle_inhibtor (you can activate it by removing the comment //)
+- added opacity to hyprland/window
+##### V5.d Install-command (copy and paste in your terminal): <br>
+```bash
+git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf /tmp/repo/config/V5.d/. ~/.config/waybar && rm -rf /tmp/repo && omarchy-restart-waybar
+```
+<img width="1518" height="78" alt="screenshot-2025-11-17_15-06-12" src="https://github.com/user-attachments/assets/b6f8f9b9-a7ee-4ac3-8894-8e5248ea1f7c" />
+<img width="1510" height="65" alt="screenshot-2025-11-17_15-06-30" src="https://github.com/user-attachments/assets/3ab2d9ce-e116-4486-a1d5-0e8c3b441a8a" />
+
 
 
 ## Screenshot V6 
