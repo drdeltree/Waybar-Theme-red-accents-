@@ -106,7 +106,7 @@
     "return-type": "json",
     "format-icons": {
       "has-updates": "󰏖 ",
-      "updated": "󰂪"
+      "updated": "󰂪 "
     },
     "exec-if": "which waybar-module-pacman-updates",
     "exec": "waybar-module-pacman-updates --interval-seconds 5 --network-interval-seconds 300"
