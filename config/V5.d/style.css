@@ -45,6 +45,7 @@ window#waybar.empty #window{
   margin-right: 8px;
   margin: 0;
   padding: 1px 0 1px;
+  opacity: 0.65;
 }
 
 .modules-center {
