@@ -97,6 +97,16 @@ git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf
 <img width="1520" height="42" alt="screenshot-2025-11-14_14-34-00" src="https://github.com/user-attachments/assets/871f25a4-dc74-4e0b-a321-f73a2cd148bd" />
 <img width="1920" height="1080" alt="screenshot-2025-11-14_23-18-39" src="https://github.com/user-attachments/assets/7e92e1c3-3d09-40d7-9703-95d7b21a14f1" />
 
+## Screenshot V5.c
+- added border, "boxed out" center and right module to catch up with workspace style<br>
+##### V5.c Install-command (copy and paste in your terminal): <br>
+```bash
+git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf /tmp/repo/config/V5.c/. ~/.config/waybar && rm -rf /tmp/repo && omarchy-restart-waybar
+```
+<img width="1571" height="91" alt="screenshot-2025-11-17_14-30-31" src="https://github.com/user-attachments/assets/7ce611ae-a3d7-4d12-a3dd-5b5cf27ed7ba" />
+<img width="1543" height="122" alt="screenshot-2025-11-17_14-30-43" src="https://github.com/user-attachments/assets/88ea2500-054f-4d23-9429-9c3e79c657e0" />
+
+
 
 ## Screenshot V6 
 - Original version by [Adso](https://github.com/adsovetzky/Adso-dotfiles), adapted by me to fit my needs and style<br>
