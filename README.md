@@ -119,7 +119,7 @@ git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf
 
 ## Screenshot V5.e
 - added borders to all modules to fit the style of the workspaces
-##### V5.d Install-command (copy and paste in your terminal): <br>
+##### V5.e Install-command (copy and paste in your terminal): <br>
 ```bash
 git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf /tmp/repo/config/V5.e/. ~/.config/waybar && rm -rf /tmp/repo && omarchy-restart-waybar
 ```
