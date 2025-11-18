@@ -117,7 +117,13 @@ git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf
 <img width="1546" height="93" alt="screenshot-2025-11-17_15-12-26" src="https://github.com/user-attachments/assets/8ba9bab9-8157-4136-9d0c-3a3812809b6f" />
 <img width="1633" height="103" alt="screenshot-2025-11-17_15-12-15" src="https://github.com/user-attachments/assets/e579625d-f21b-4ee7-b31a-6f2d91b660be" />
 
-
+## Screenshot V5.e
+- added borders to all modules to fit the style of the workspaces
+##### V5.d Install-command (copy and paste in your terminal): <br>
+```bash
+git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf /tmp/repo/config/V5.e/. ~/.config/waybar && rm -rf /tmp/repo && omarchy-restart-waybar
+```
+<img width="1638" height="479" alt="screenshot-2025-11-18_18-01-41" src="https://github.com/user-attachments/assets/b6ad0f86-0ebc-4ca3-ad4a-84b1a1a21114" />
 
 
 ## Screenshot V6 
