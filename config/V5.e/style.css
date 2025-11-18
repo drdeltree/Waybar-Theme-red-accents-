@@ -23,7 +23,7 @@ tooltip {
 window#waybar {
   background-color: @background;
   color: @foreground;
-  border: 2px solid alpha(@foreground, 0.8);
+  border: 2px solid alpha(@foreground, 0.5);
   border-radius: 4px;
 }
 
