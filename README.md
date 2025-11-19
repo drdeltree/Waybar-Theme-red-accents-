@@ -139,12 +139,13 @@ git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf
 <img width="1264" height="547" alt="screenshot-2025-11-12_00-08-38" src="https://github.com/user-attachments/assets/7e5a2728-31bc-4ae3-9367-05c7f6dcc856" />
 
 ## Screenshot V6.b 
-- less hight and added border-radius<br>
+- less hight and added border-radius <br>
 ##### V6.b Install-command (copy and paste in your terminal): <br>
 ```bash
 git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf /tmp/repo/config/V6.b/. ~/.config/waybar && rm -rf /tmp/repo && omarchy-restart-waybar
 ```
-  <img width="1323" height="512" alt="screenshot-2025-11-12_19-23-18" src="https://github.com/user-attachments/assets/e5d01188-9c93-4a5b-8a16-fe8bc370e2d9" />
+<img width="1609" height="487" alt="screenshot-2025-11-19_19-02-19" src="https://github.com/user-attachments/assets/e99b8409-5121-4c20-b5c4-c82a7b9f9658" />
+
 
 
 
