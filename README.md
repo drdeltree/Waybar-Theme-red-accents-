@@ -58,6 +58,17 @@ git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf
 ```
 <img width="1307" height="209" alt="screenshot-2025-11-07_11-41-49" src="https://github.com/user-attachments/assets/1b804243-5249-4181-bcc1-558be83d8e18" />
 
+## Screenshots V3 (min)
+- minimal setup (cpu, memory, tempature, hyprland/window are excluded)
+- mpris support , bluetooth inside of tray icon
+##### V3-min Install-command (copy and paste in your terminal): <br>
+```bash
+git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf /tmp/repo/config/V3-min/. ~/.config/waybar && rm -rf /tmp/repo && omarchy-restart-waybar
+```
+<img width="934" height="424" alt="screenshot-2025-11-19_22-44-49" src="https://github.com/user-attachments/assets/825c4a07-6861-425f-97b7-62a7ecc58802" />
+
+
+
 
 ## Screenshots V4
 - new waybar style with base config from V3 - please backup your config & style file before applying <br>
