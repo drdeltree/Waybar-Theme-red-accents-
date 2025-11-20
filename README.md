@@ -58,6 +58,16 @@ git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf
 ```
 <img width="1307" height="209" alt="screenshot-2025-11-07_11-41-49" src="https://github.com/user-attachments/assets/1b804243-5249-4181-bcc1-558be83d8e18" />
 
+## Screenshots V3 (trans)
+- transparant and all shadow , waybar and tooltip
+##### V3-trans Install-command (copy and paste in your terminal): <br>
+```bash
+git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf /tmp/repo/config/V3-trans/. ~/.config/waybar && rm -rf /tmp/repo && omarchy-restart-waybar
+```
+<img width="1441" height="509" alt="screenshot-2025-11-20_21-42-57" src="https://github.com/user-attachments/assets/7e208603-9e9f-4b1f-9361-b93d614c1f53" />
+
+
+
 ## Screenshots V3 (min)
 - minimal setup (cpu, memory, tempature, hyprland/window are excluded)
 - mpris support , bluetooth inside of tray icon
