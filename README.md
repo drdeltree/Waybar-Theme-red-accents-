@@ -77,6 +77,15 @@ git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf
 ```
 <img width="934" height="424" alt="screenshot-2025-11-19_22-44-49" src="https://github.com/user-attachments/assets/825c4a07-6861-425f-97b7-62a7ecc58802" />
 
+## Screenshots V3 (min2)
+- minimal setup (memory, tempature, hyprland/window are excluded)
+- mpris support , bluetooth and gtk icons out of tray box
+##### V3-min2 Install-command (copy and paste in your terminal): <br>
+```bash
+git clone https://github.com/HANCORE-linux/waybar-themes.git /tmp/repo && cp -rf /tmp/repo/config/V3-min2/. ~/.config/waybar && rm -rf /tmp/repo && omarchy-restart-waybar
+```
+<img width="2560" height="1440" alt="screenshot-2025-11-21_19-41-30" src="https://github.com/user-attachments/assets/c0e91474-ea79-45cc-9836-44dafe0e0b37" />
+
 
 
 
