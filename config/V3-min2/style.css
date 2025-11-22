@@ -139,6 +139,10 @@ tooltip {
   font-size: 10px;
 }
 
+#cpu {
+  padding:0 3px;
+}
+
 #window, #hyprland-window {
   margin: 0;
 }
