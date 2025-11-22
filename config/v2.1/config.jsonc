@@ -10,6 +10,7 @@
   "modules-right": [
     "group/tray-expander",
     "temperature",
+    "memory",
     "network",
     "pulseaudio",
     "cpu",
@@ -70,8 +71,12 @@
   "cpu": {
     "interval": 5,
     "format": "{usage}% 󰍛",
-    "on-click": "alacritty -e btop"
-    
+    "on-click": "omarchy-launch-or-focus-tui btop"  
+  },
+"memory": {
+    "interval": 2,
+    "format": "  {percentage}%",
+    "on-click": "omarchy-launch-or-focus-tui btop"
   },
   "clock": {
     "format": "{:L%A %H:%M}",
@@ -115,12 +120,12 @@
     "format-disabled": "󰂲",
     "format-connected": "",
     "tooltip-format": "Devices connected: {num_connections}",
-    "on-click": "blueberry"
+    "on-click": "omarchy-launch-bluetooth"
   },
   "pulseaudio": {
     "format": "{volume}% {icon}",
     "on-click": "alacritty --class=Wiremix -e wiremix",
-    "on-click-right": "pamixer -t",
+    "on-click-right": "omarchy-launch-or-focus-tui wiremix",
     "tooltip-format": "Playing at {volume}%",
     "scroll-step": 5,
     "format-muted": "󰝟",
