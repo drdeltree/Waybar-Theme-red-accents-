@@ -113,11 +113,12 @@
   "cpu": {
     "interval": 2,
     "format": "󰍛 {usage}%",
-    "on-click": "xdg-terminal-exec btop"
+    "on-click": "omarchy-launch-or-focus-tui btop"
   },
-  "memory": {
+   "memory": {
     "interval": 2,
-    "format": " {percentage}%",
+    "format": "  {percentage}%",
+    "on-click": "omarchy-launch-or-focus-tui btop"
   },
   "clock": {
     "format": "{:L%A: %H:%M}",
@@ -207,11 +208,11 @@
     "format-disabled": "󰂲",
     "format-connected": "",
     "tooltip-format": "Devices connected: {num_connections}",
-    "on-click": "blueberry"
+    "on-click": "omarchy-launch-bluetooth"
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
-    "on-click": "xdg-terminal-exec --app-id=com.omarchy.Wiremix -e wiremix",
+    "on-click": "omarchy-launch-or-focus-tui wiremix",
     "on-click-right": "pamixer -t",
     "tooltip-format": "Playing at {volume}%",
     "scroll-step": 5,
